@@ -1,0 +1,153 @@
+.all{
+    display: flex;
+    justify-content:center;
+    gap: 150px;
+    margin-top: 100px;
+    margin-left: -50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-image:url(girlperfumes.jpeg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 480px;
+    width: 480px; */
+    height: 500px;
+    width: 500px;
+    border-bottom-left-radius:210px ;
+    border-top-right-radius:210px ;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.p1{
+font-size: 18px;
+}
+.info{
+    margin-top: 20px;
+}
+.overlay{
+    background-color: rgba(31, 29, 29, 0.178);
+    height: 100%;
+    width:100%;
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    border-bottom-left-radius:210px ;
+    border-top-right-radius:210px ;
+    
+}
+.text{
+    position: relative;
+    z-index: 4;
+    margin-top: 200px;
+    font-size:20px ;
+        
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.google{
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: white;
+    border-color: black;
+}
+.Facebook{
+      height: 40px;
+    width: 150px;
+        border-radius: 7px;
+        background-color: white;
+        border-color: black;
+
+}
+.p2{
+    font-size: 12px;
+    /* text-align: center; */
+    margin-left: 90px;
+}
+.checkbox{
+    margin-top: -20px;
+}
+.p3{
+    font-size: 12px;
+
+}
+.p4{
+     font-size: 15px;
+    text-align: center;
+
+}
+.SignUp{
+     height: 50px;
+    width: 310px;
+    background-color:rgb(29, 67, 98) ;
+            border-radius: 7px;
+            border: none;
+            color: white;
+            margin-top: -5px;
+           
+
+}
+
+.allforms{
+    position: relative;
+    margin-bottom: 15px;
+}
+.allforms .i{
+    margin-left: 10px;
+    margin-top: 16px;
+    position: absolute;
+     color: #555;
+     
+    
+
+}
+/* .G{
+    padding-right: 100px;
+} */
+.eye
+{
+        margin-left: 280px;
+    margin-top: 20px;
+    position: absolute;
+     color: #555;
+}
+
+    
+.allforms input{
+    padding-left: 35px;
+      height: 50px;
+    width: 310px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #c2bfbf82;
+    border: none;
+
+}
+
+
+
+@media(max-width:1000px){
+    /* .main{
+        display: flex;
+        flex-direction: column;
+
+    } */
+    .info{
+   display: flex;
+                flex-direction: column;
+                margin-top: 600px;
+              /* margin-right: 700px;    */
+              margin-left: -550px;
+ }
+    .allforms{
+        display: flex;
+        flex-direction: column;
+    }
+}
