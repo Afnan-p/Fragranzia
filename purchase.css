@@ -1,0 +1,216 @@
+
+.navbar{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 100px;
+
+}.navbar-brand{
+font-weight:bolder;
+font-size: 20px;
+}
+.btn123 button{
+    border-color: rgb(220, 213, 213);
+    border-width: 2px;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+
+}
+.home a{
+    color: black;
+    text-decoration: none;
+}
+.section1{
+    margin-left: 70px;
+}
+
+
+.img1{
+    border-style: solid;
+
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.leftpart{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.buttons button{
+    display: flex;
+    height: 50px;
+    width: 600px;
+    padding: 10px;
+
+}
+.buttons span{
+margin-left: 240px;
+}
+.PurchaseNow{
+background-color: #0d2a46 ;
+color: white;
+border-radius: 7px;
+
+}
+.AddtoCart{
+background-color: white;
+border-color: #0d2a46;
+font-weight: bolder;
+border-radius: 7px;
+}
+
+
+
+.secondpart{
+    display: flex;
+    gap: 150px;
+    
+
+}
+.rightpart{
+    margin-top: -450px;
+}
+.quantitybtn{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+.rightpart p {
+    font-size: larger;
+}
+
+
+
+
+/* section2>>>>> */
+
+
+.fearured {
+  width: 94%;
+  height: 550px;
+  aspect-ratio: 2/1;
+  padding: 20px 50px;
+  margin: auto;
+  border: solid black 2px;
+  overflow-x: scroll;
+    /* overflow-x:hidden; */
+
+  overflow-y: hidden;
+  /* white-space: nowrap; */
+  scroll-snap-type: x mandatory;
+  border: none;
+  margin-top: 30px;
+  scrollbar-width: none;
+  margin-left: 20px;
+  
+  
+}
+.pics{
+    gap: 70px;
+}
+
+.featuredbtn button{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border-style: solid;
+  border-width:2px;
+  border-color: rgb(208, 200, 200);
+  background-color: white;
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  float: right;
+margin-top: -35px;
+margin-right: 20px;
+
+
+}
+
+.bgwhite{
+      border-bottom-right-radius:100px ;
+    border-top-left-radius:100px ;
+    box-shadow: 5px 5px 5px 5px rgba(42, 41, 41, 0.1);
+   /* border: 10px;
+   border: black; */
+   height: 350px;
+   width: 320px;
+     border-style: solid;
+  border-width:1px;
+    border-color: antiquewhite;
+
+     transition:0.5s;
+ 
+}
+.bgwhite:hover{
+      border-bottom-left-radius:100px ;
+    border-top-right-radius:100px ;
+       border-bottom-right-radius:0px ;
+    border-top-left-radius:0px ;
+    /* height:270px ;
+    width:290px ; */
+
+    /* transition-timing-function: linear; */
+}
+.bgwhite{
+    background-color: white;
+}
+
+.collection{
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 30px;
+    height:260px ;
+    width:260px ;
+    transition: width 2s,height 2s, transform 1s;
+      /* transition: width 2s height 2s; */
+       /* transition-timing-function: linear; */
+
+}
+.collection:hover{
+    height:280px ;
+    width:280px ;
+    /* transition-timing-function: ease-in; */
+}
+.btnAddToCart{
+    height:45px;
+    width: 300px;
+    background-color: #0d2a46;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/* section3>>>>> */
+.footer{
+    margin-top: 70PX;
+    background-color:rgba(123, 177, 184, 0.762);
+     height: 300px;
+    max-width: 100%;
+    display: flex;
+    gap: 70px;
+    padding: 30px;
+    border-bottom: 2px solid rgb(5, 5, 5);
+}
+.all{
+    display: flex;
+    gap: 150px;
+    margin-left: 400px;
+}
+.underfooter{
+    display: flex;
+    justify-content: space-between;
+        background-color:rgba(123, 177, 184, 0.762);
+height: 60px;
+    max-width: 100%;
+    padding-top: 10px;
+}
