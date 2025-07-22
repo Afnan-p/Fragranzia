@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="personaldetails.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="paymentfaild.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
-     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+       
+<div class="navcontents">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
   <div class="container-fluid ">
     <a class="navbar-brand   "  href="#"><h1 style="color: #0d2a46;font-weight: bold; font-size: 35px;">Fragranzia</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,9 +28,7 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
+   
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Products</a>
         </li>
@@ -48,10 +49,13 @@
       </form>
     </div>
 </nav>
+</div>
 
 
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<backkground>>>>>>>>>>>>>>>>>>>>> -->
 
 
+<div class="blurbackground">
 
 <div class="productdetails">
       <div class="product d-flex">
@@ -108,10 +112,7 @@
       <h3><b>Payment Methods</b></h3>
       <form action="">
         <div>
-        <label for="">
-          <!-- <i class="fa-brands fa-google" style="color: red;"> </i>  -->
-           <img src="google-pay-icon 1.png" alt="" height="23px" width="25px">
-          <span style="margin-left: 10px;">Google pay</span></label>
+        <label for=""><i class="fa-brands fa-google" style="color: red;"> </i> <span style="margin-left: 10px;">Google pay</span></label>
         <input type="radio" id="Googlepay" name="fav_language" value="Google pay"style="margin-left: 220px;"><br>
         </div>
         <div>
@@ -133,10 +134,47 @@
         <button class="paynow">Pay Now</button>
       </form>
 
-
-
   </div>
+  </div>
+  </div>
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<end>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+
+    <!-- <div class="overlay"></div> -->
+
+<div class="order">
+    <div class="vector">
+                <div class="vctr"><img src="x.png" alt="" height="120px" width="120px"></div>
+
+        <div class="ellips"></div>
+    </div>
+       <h2 style="font-weight: bold;">Your order has failed!</h2>
+    <p>Your order cant be completed</p>
+    <p style="margin-top: -10px;">Please check your internet connection!</p>
+    <button class="btnback">Back to Home</button>
+    <button class="btnorder">Retry</button>
+  </div>
+</div>
 
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
