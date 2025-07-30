@@ -309,8 +309,8 @@ height: 60px;
 
 @media (max-width: 750px) {
     .navbar {
-        margin-left: 10px;
-        margin-right: 10px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
         position: static;
     }
 
@@ -360,7 +360,7 @@ height: 60px;
 
 @media (max-width: 550px) {
     h1 {
-        font-size: 24px !important;
+        font-size: 24px;
     }
 
     .productimg img {
@@ -383,6 +383,7 @@ height: 60px;
         width: 100%;
         padding: 10px 0;
     }
+  
 }
 
 
