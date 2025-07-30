@@ -133,3 +133,43 @@ font-size: 18px;
     font-size: 13px;
 
 }
+
+
+
+
+
+
+@media(max-width:800px){
+
+    .all{
+                flex-direction: column;
+                align-items: center;
+                gap: 0px;
+
+    }
+    .main{
+        /* height: auto; */
+        width: 90%;
+    }
+    .text{
+        text-align: center;
+    }
+   
+
+    /* .form {
+        margin-left: 0;
+        text-align: center;
+    } */
+    .SignUp{
+          width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        /* height: auto; */
+    }
+    .inputs{
+                  width: 90%;
+    margin-left: 30px;
+        margin-right: auto;
+        height: auto;
+    }
+    }

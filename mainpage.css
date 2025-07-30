@@ -8,14 +8,27 @@
 font-weight:bolder;
 font-size: 20px;
 }
-.btn123 button{
-    border-color: rgb(220, 213, 213);
+.btn123 a{
+    border: solid;
+    border-color: rgb(248, 232, 232);
     border-width: 2px;
     background-color: white;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
+    margin-left: 10px;
+    /* box-shadow: 2px 5px 6px rgba(0,0,0,0.1); */
+ box-shadow:2px 2px 2px  rgba(55, 54, 54, 0.1); 
+        border-style: solid;
 
 }
+.btn123 .c{
+    margin-left: 13px;
+    margin-top: 13px;
+    color: black;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<navbar>>>>>>>>>>>>>>>>>>>>>>>> */
 
 .blueline{
     background-color: #0d2a46;
@@ -26,6 +39,11 @@ font-size: 20px;
     text-align: center;
     padding: 10PX;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<blue>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<carosal>>>>>>>>>>>>>>>>>>>>> */
 
 .carousel-inner{
     padding: 50px;
@@ -56,6 +74,21 @@ font-size: 20px;
     left: 100px;
     color: white;
 }
+.sh{
+    display: inline-block;
+    background-color: white;
+     color: black; 
+     height: 40px;
+      width: 130px;
+     border-radius: 5px;
+     border: none; margin-top: 10px;
+     padding: 10px;
+     text-align: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<carosal/>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
 
 .partthree{
     display: flex;
@@ -72,6 +105,8 @@ font-size: 20px;
     border-radius: 20px;
     padding: 20px;
     position: relative;
+    display: flex;
+    gap: 45px;
 }
 .three2{
    height: 250px;
@@ -83,6 +118,10 @@ font-size: 20px;
     text-align: center;
     position: relative;
     }
+    .Gift{
+        margin-top: -23px;
+    
+    }
     .three3{
            height: 250px;
     width: 435px;
@@ -90,22 +129,18 @@ font-size: 20px;
     border-radius: 20px;
     padding: 20px;
     position: relative;
+    display: flex;
     }
-    .bt5{
+    .grp{
+        margin-top: -40px;
+    }
+    .btle3{
         position: absolute;
-        top:30px;
-        left: 230px;
+        left: 190px;
+        top:50px ;
+        
     }
-    .bt6{
-        position: absolute;
-        top: 60px;
-        left: 100px;
-    }
-    .bt7{
-        position: absolute;
-        top: 70px;
-        left:100px ;
-    }
+
 
 
 .three1 h1{
@@ -119,6 +154,12 @@ font-size: 20px;
     font-size: 20px;
     font-weight: bold;
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<part3>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
 .fast{
     /* display: flex;
     justify-content: center;
@@ -148,6 +189,11 @@ font-size: 20px;
   border-width:1px;
   border-color: antiquewhite;
 }
+
+
+.one{
+    display: flex;
+}
 .i{
     margin-top: 30px;
     color: #0d2a46 ;
@@ -163,6 +209,10 @@ font-size: 20px;
 }
 
 
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<featured>>>>>>>>>>>>>>>>> */
 
 
 
@@ -184,23 +234,28 @@ font-size: 20px;
   
   
 }
-.featuredbtn button{
-    height: 45px;
-    width: 45px;
+.featuredbtn{
+    margin-left: 88%;
+    margin-top: -50px;
+}
+
+.featuredbtn a{
+    height:50px;
+    width: 50px;
     border-radius: 50%;
     border-style: solid;
   border-width:2px;
   border-color: rgb(208, 200, 200);
   background-color: white;
-  font-weight: bolder;
-  font-size: 25px;
-  text-align: center;
-  float: right;
-margin-top: -35px;
-margin-right: 20px;
-
+display: inline-block;
+padding: 8px;
 
 }
+.pics{
+    display: flex;
+}
+
+
 
 .bgwhite{
       border-bottom-right-radius:100px ;
@@ -217,7 +272,6 @@ margin-right: 20px;
     
      transition:0.5s;
 
- 
 }
 .bgwhite:hover{
       border-bottom-left-radius:100px ;
@@ -226,8 +280,6 @@ margin-right: 20px;
     border-top-left-radius:0px ;
   
 }
-
-
 .collection{
     margin-top: 30px;
     margin-left: 25px;
@@ -235,18 +287,16 @@ margin-right: 20px;
     height:260px ;
     width:260px ;
     transition: width 2s,height 2s, transform 1s;
-
-
 }
 .collection:hover{
     height:280px ;
     width:280px ;
 } 
- 
-
-
 
 .btnAddToCart{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
     height:45px;
     width: 300px;
     background-color: #0d2a46;
@@ -254,10 +304,11 @@ margin-right: 20px;
     border: none;
     color: white;
     text-decoration: none;
+     cursor: pointer;
 }
 
 
-
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<text>>>>>>>>>>>>>>> */
 
 
 .text{
@@ -265,6 +316,11 @@ margin-right: 20px;
         text-align: center;
     font-size: 35px;
 }
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<newarrivals>>>>>>>>>>>>>>>>>>> */
+
+
 .newarrivals{
     margin-top: 50px;
     /* display: flex;
@@ -274,11 +330,14 @@ margin-right: 20px;
     height: 700px;
     border-radius: 20px;
 
+
 }
 .imgesgroup{
     display: flex;
     justify-self: center;
     gap: 20px;
+     position: relative;
+
    
     /* margin-left: 30px; */
 }
@@ -286,8 +345,9 @@ margin-right: 20px;
     height: 550px;
     width: 390px;
     border-radius: 10px;
-            transition: width 1s,height 1s, transform 5s;
+        transition:1s;
  margin-top: 20px;
+
 }
 .newimges1:hover{
     width: 450px;
@@ -321,13 +381,48 @@ margin-right: 20px;
 
 }
 
+.rotatetext1{
+    position: absolute;
+    top:385px;
+    margin-left: -70px;
+font-size: 40px;
+color: white;
+font-weight: bolder;
+}
+.rotatetext2{
+       position: absolute;
+    top: 360px;
+font-size: 40px;
+    margin-left: -90px;
+    color: white;
+font-weight: bolder;
+
+
+}
+.rotatetext3{
+       position: absolute;
+    top: 395px;
+font-size: 40px;
+    margin-left: -60px;
+    color: white;
+font-weight: bolder;
+
+
+}
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<.Categories>>>>>>>>>>>>> */
+
 
 
 
 .Categories{
     display: flex;
     gap: 55px;
-    margin-top: 50px;
+    margin-top: 40px;
     /* margin-left: 100px; */
 
 }
@@ -353,7 +448,7 @@ margin-right: 20px;
     height: 230px;
     width: 230px;
     border: rgb(240, 235, 235);
-    box-shadow:2px 2px 2px  rgba(42, 41, 41, 0.1); ;
+    box-shadow:2px 2px 2px  rgba(42, 41, 41, 0.1); 
      border-style: solid;
   border-width: medium;
   border-radius: 50%;
@@ -361,8 +456,10 @@ margin-right: 20px;
 }
 
 
-
-
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<,offerzone>>>>>>>>>>>>>>>> */
+.offerzone{
+    margin-top: 50px;
+}
 .offer{
   width: 100%;
   height: 700px;
@@ -385,6 +482,7 @@ margin-right: 20px;
   height: 550px;} */
 
 
+  /* <<<<<<<<<<<<<<<<<<lastpart>>>>>>>>>>>>>>>>. */
 
 .lastpart{
     height: 350px;
@@ -408,10 +506,22 @@ top: 1px;
 left: 845px;
 
 }
-/* .lastimage{
-        box-shadow: 5px 5px rgba(42, 41, 41, 0.1);
+.lstbtn{
+    padding: 10px;
+     color: white;
+      background-color: #0d2a46;
+       height: 50px; 
+       width: 150px;
+        border-radius: 10px;
+        border: none;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+}
 
-} */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<,footer>>>>>>>>>>>>> */
 
 .footer{
     margin-top: 70PX;
@@ -419,15 +529,20 @@ left: 845px;
      height: 300px;
     max-width: 100%;
     display: flex;
-    gap: 70px;
+    gap: 150px;
     padding: 30px;
     border-bottom: 2px solid rgb(5, 5, 5);
 }
-.all{
-    display: flex;
-    gap: 150px;
-    margin-left: 400px;
+.page{
+        display: flex;
+            gap: 150px;
+            margin-left: 350px;
+
+
 }
+
+
+
 .underfooter{
     display: flex;
     justify-content: space-between;
@@ -435,4 +550,102 @@ left: 845px;
 height: 60px;
     max-width: 100%;
     padding-top: 10px;
+}
+/* .under{
+    display: flex;
+    justify-content: space-between;
+} */
+.web{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* 
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* // Usage */
+/* .custom-container {
+  @include make-container();
+} */
+
+
+@media(max-width:1000px){
+
+.partthree{
+    display: flex;
+    flex-direction: column;
+
+}
+.fast{
+       display: flex;
+    flex-direction: column;
+}
+.fearured{
+      display: flex;
+    flex-direction: column;
+}
+.imgesgroup{
+      display: flex;
+    flex-direction: column;
+}
+.rotatetext1{
+     display: flex;
+    flex-direction: column;
+}
+.rotatetext2{
+     display: flex;
+    flex-direction: column;
+        margin-top: 600px;
+
+}
+.rotatetext3{
+     display: flex;
+    flex-direction: column;
+    margin-top: 1200px;
+}
+.cats {
+    margin-top: 1100px;
+}
+.Categories{
+     display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+
+.footer{
+      display: flex;
+    flex-direction: column;
+    height: auto;
+    
+   
+}
+.web{
+      display: flex;
+    flex-direction: column;
+    /* margin-top: 1000px; */
+}
+.page{
+      display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+.underfooter{
+     display: flex;
+    flex-direction: column;
+    height: auto;
+    /* flex-wrap: wrap; */
+}
+.lstbtn{
+    /* margin-left: -70px; */
+}
 }

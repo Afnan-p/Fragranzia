@@ -9,6 +9,13 @@
     margin-top: 100px;
 
 }
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>> */
+.allproduct{
+    display: flex;
+    justify-content: center;
+}
+
 .home a{
  color: black;
  text-decoration: none;
@@ -22,9 +29,18 @@
     color: black;
  
 }
+
 .sort{
     margin-top: 45px;
     margin-left: 20px;
+    display: flex;
+    gap: 50px;
+}
+.sort a:hover{
+        font-weight: bold;
+        color: #0d2a46;
+
+    
 }
 .filterbtn{
     height: 40px;
@@ -112,6 +128,7 @@
     /* transition-timing-function: ease-in; */
 }
 .btnAddToCart{
+    display: inline-block;
     height:60px;
     width: 400px;
     background-color: #0d2a46;
@@ -119,6 +136,10 @@
     border: none;
     color: white;
     text-decoration: none;
+     padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 
@@ -147,6 +168,12 @@ margin-top: 50px;
 }
 
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>> */
+
+.loadbtn{
+    display: flex;
+    justify-content: center;
+}
 .loadmore{
    margin-top: 50px;
    height: 60px;
@@ -154,8 +181,17 @@ margin-top: 50px;
    font-size: 20px;
    border-radius: 5px;
    background-color: white;
+   padding: 10px;
+   text-align: center;
+   color: black;
+   border: #0d2a46;
+   border-style: solid;
+   display: inline-block;
+   text-decoration: none;
 
 }
+
+
 
 
 .footer{
@@ -164,15 +200,20 @@ margin-top: 50px;
      height: 300px;
     max-width: 100%;
     display: flex;
-    gap: 70px;
+    gap: 150px;
     padding: 30px;
     border-bottom: 2px solid rgb(5, 5, 5);
 }
-.all{
-    display: flex;
-    gap: 150px;
-    margin-left: 400px;
+.page{
+        display: flex;
+            gap: 150px;
+            margin-left: 350px;
+
+
 }
+
+
+
 .underfooter{
     display: flex;
     justify-content: space-between;
@@ -181,3 +222,68 @@ height: 70px;
     max-width: 100%;
     padding-top: 10px;
 }
+/* .under{
+    display: flex;
+    justify-content: space-between;
+} */
+.web{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+
+
+@media(max-width:1000px){
+    .allproduct{
+        display: flex;
+        flex-direction: column;
+    }
+    .products{
+          display: flex;
+        flex-direction: column;
+    }
+    .row1{
+         display: flex;
+        flex-direction: column;
+    }
+    .row2{
+          display: flex;
+        flex-direction: column; 
+    }
+    .row3{
+           display: flex;
+        flex-direction: column;
+    }
+    .footer{
+      display: flex;
+    flex-direction: column;
+    height: AUTO;
+    
+   
+}
+.web{
+      display: flex;
+    flex-direction: column;
+}
+.page{
+      display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.underfooter{
+     display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.lstbtn{
+    margin-left: -70px;
+}
+.blueline{
+    height: auto;
+}
+}
+
+
+

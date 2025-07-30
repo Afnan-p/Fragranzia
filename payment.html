@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="personaldetails.css">
+    <link rel="stylesheet" href="payment.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -12,9 +12,13 @@
 <body>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
-     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+
+ <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NAV>>>>>>>>>>>>>>>>>>>>>>>> -->
+<div class="navall fixed-top">
+    <div class="navall container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid ">
-    <a class="navbar-brand   "  href="#"><h1 style="color: #0d2a46;font-weight: bold; font-size: 35px;">Fragranzia</h1></a>
+    <a class="navbar-brand fs-2  "  href="#"><h1 class="frag" style="color: #0d2a46;font-weight: bold;">Fragranzia</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,37 +27,42 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class=" nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
+    
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Products</a>
+          <a class="nav-link active" aria-current="page" href="products.html">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Gifting</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link active" aria-current="page" href="about.html">About</a>
         </li>
-      </ul>
-
+    
         <input class="form-control me-2 rounded-pill" type="search" placeholder="Search Here" aria-label="Search"/>
-        <div class="btn123 d-flex gap-2 mb-3">
-        <button class="btn1  rounded-circle" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
-        <button class="btn2  rounded-circle" type="submit"><i class="fa-solid fa-bell" style="color: black;"></i></button>
-        <button class="btn3  rounded-circle" type="submit"><i class="fa-solid fa-user"></i></button>
+        <div class="btn123 d-flex gap-1 ">
+       <a href="cart.html" class="btn1  rounded-circle" type="submit"><i class=" c fa-solid fa-cart-shopping"></i></a> 
+       <a href="cart.html" class="btn2  rounded-circle" type="submit"><i class=" c fa-solid fa-bell"></i></a> 
+       <a href="cart.html" class="btn3  rounded-circle" type="submit"><i class=" c fa-solid fa-user"></i></a> 
         </div>
+        
+    
       </form>
     </div>
-</nav>
+    </nav>
+    
+    
+  </div>
+  </div>
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<nav>>>>>>>>>>>>>>>>>> -->
 
 
 
 
 
-<div class="productdetails">
+<div class="productdetails ">
       <div class="product d-flex">
          <div class="productimg">
             <img src="collection1.png" alt="" height="200px" width="200px">
@@ -83,9 +92,10 @@
 <div class="buttons">
   <h2 style="font-size: 25px;"><strong>Personal Details</strong> </h2>
   <div class="btns d-flex gap-3">
-  <button class="btn1">Add address</button>
-    <button class="btn2">Home</button>
-      <button class="btn3">Office</button>
+    <a class="btn1" href="">Add address</a>
+    <a class="btn2" href="mainpage.html">Home</a>
+    <a class="btn3" href="">Office</a>
+
       </div>
 </div>
 
@@ -116,21 +126,21 @@
         </div>
         <div>
         <label for=""><i class="fa-solid fa-money-bills"></i> <span style="margin-left: 10px;">Cash on delivery (cash/UPI)</span></label>
-        <input type="radio" id="html" name="fav_language" value="Cash on delivery (cash/UPI)"style="margin-left: 105px;"><br>
+        <input type="radio" id="html" name="fav_language" value="Cash on delivery (cash/UPI)"style="margin-left: 108px;"><br>
       </div>
       <div>
         <label for=""><i class="fa-brands fa-amazon-pay"></i><span style="margin-left: 10px;"> Paytm/Phone Pay/Amazon Pay etc</span></label>
-        <input type="radio"id="html" name="fav_language" value="Paytm/Phone Pay/Amazon Pay etc"style="margin-left: 55px;"><br>
+        <input type="radio"id="html" name="fav_language" value="Paytm/Phone Pay/Amazon Pay etc"style="margin-left: 60px;"><br>
         </div>
         <div>
         <label for=""><i class="fa-solid fa-credit-card"></i><span style="margin-left: 10px;">Credit/Debit cardy</span></label>
-        <input type="radio" id="html" name="fav_language" value="Credit/Debit cardy"style="margin-left: 177px;"><br>
+        <input type="radio" id="html" name="fav_language" value="Credit/Debit cardy"style="margin-left: 188px;"><br>
         </div>
         <div>
         <label for=""><i class="fa-solid fa-building-columns"></i><span style="margin-left: 10px;">Net Banking</span></label>
-        <input type="radio" id="html" name="fav_language" value="Net Banking" style="margin-left: 219px;">
+        <input type="radio" id="html" name="fav_language" value="Net Banking" style="margin-left: 230px;">
         </div>
-        <button class="paynow">Pay Now</button>
+        <a class="paynow" href="ordering.html">Pay Now</a>
       </form>
 
 

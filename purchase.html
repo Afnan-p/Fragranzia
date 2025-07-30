@@ -11,10 +11,10 @@
 </head>
 <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="navall container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid ">
-    <a class="navbar-brand fs-2  "  href="#"><h1 style="color: #0d2a46;font-weight: bold;">Fragranzia</h1></a>
+    <a class="navbar-brand fs-2  "  href="#"><h1 class="frag" style="color: #0d2a46;font-weight: bold;">Fragranzia</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,45 +23,34 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent ">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class=" nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
+    
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Products</a>
+          <a class="nav-link active" aria-current="page" href="products.html">Products</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Gifting</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About</a>
+          <a class="nav-link active" aria-current="page" href="about.html">About</a>
         </li>
-      </ul>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li> -->
-        <!-- <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul> -->
+    
         <input class="form-control me-2 rounded-pill" type="search" placeholder="Search Here" aria-label="Search"/>
-        <div class="btn123 d-flex gap-2">
-        <button class="btn1  rounded-circle" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
-        <button class="btn2  rounded-circle" type="submit"><i class="fa-solid fa-bell"></i></button>
-        <button class="btn3  rounded-circle" type="submit"><i class="fa-solid fa-user"></i></button>
+        <div class="btn123 d-flex gap-1 ">
+       <a href="cart.html" class="btn1  rounded-circle" type="submit"><i class=" c fa-solid fa-cart-shopping"></i></a> 
+       <a href="cart.html" class="btn2  rounded-circle" type="submit"><i class=" c fa-solid fa-bell"></i></a> 
+       <a href="cart.html" class="btn3  rounded-circle" type="submit"><i class=" c fa-solid fa-user"></i></a> 
         </div>
+        
+    
       </form>
     </div>
-</nav>
+    </nav>
+    
+    
+  </div>
+
     
 <section class="section1 mt-3 ">
         <div class="home"> 
@@ -70,31 +59,41 @@
             
             
         </div>
-
+<div class="contentall">
         <div class="main">
             <div class="leftpart">
                 <div>
-                    <div class="threeimg mt-3">
+                    <div class="threeimg mt-4">
                     <img class="img1" src="collection1.png" alt=""height="100px" width="100px"><br><br>
-                    <img src="coll1.jpg" alt="" height="100px" width="100px"><br><br>
-                    <img src="coll1.1.jpg" alt="" height="100px" width="100px"><br>
+                    <img class="img"  src="coll1.jpg" alt="" height="100px" width="100px"><br><br>
+                    <img class="img" src="coll1.1.jpg" alt="" height="100px" width="100px"><br>
                     </div>
                 </div>
                     <div class="mainimg">
                         <img src="collection1.png" alt="" height="450px" width="450px">
-                   
-        
-            </div>
-            </div>
-        </div>
+                  <div class="buttons" >
+                <div>
+                <a class="PurchaseNow" href="ordering.html">Purchase Now</a>
+                </div>
+                <div>
+                <a style=" text-align: center;" class="AddtoCart" href="cart.html">Add to Cart</a>
+                </div>
+              </div>
+                   <div class="likeandshare">
+                       <div class="like">
+                        <i class="fa-regular fa-heart fa-2x" style="color: #74C0FC;"></i>
+                       </div>
+                       <div class="share">
+                        <i class="fa-solid fa-share-nodes fa-2x"></i>
+                       </div>
+                        </div>
+                
+                    </div>
+                  </div>
 
-         <div class="secondpart">
-            <div class="buttenspart">
-              <div class="buttons" >
-                <button class="PurchaseNow" ><span >Purchase Now</span></button>
-                <button class="AddtoCart" style="margin-top: 20px;"><span  >Add to Cart</span></button>
-                 </div>
-                 </div>
+       
+            </div>
+                 
            
             <div class="rightpart">
             <h2>Autograph eau de parfum 100ml for men</h2>
@@ -118,25 +117,25 @@
                 <p><i class="fa-solid fa-tag" style="color: lightgreen;"></i> Receive a free tool case with the purchase of any perfume
 over 2,000</p>
             </div>
-                
-        </div>
+</div>
         </section>
 
-
-
-
-
-        <section class="section2 mt-5">
+    <div style="margin-top: 20px;">
 <h1 style="padding-left: 70px;">Suggested For You</h1>
-
  <div class="featuredbtn">
-      <button><span> > </span></button>
-      <button> <span>< </span></button>
+    <a class="skipbtns"  href=""><img src="skip2.png" alt="" height="25px" width="25px"></a>
+    <a class="skipbtns" href=""><img src="skip1.png" alt=""height="25px" width="25px"></a>
 </div>
+</div>
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<suggested>>>>>>>>>>>>>>>>>>> -->
+
 
 <div class="fearured">
     
-    <div class="pics d-flex">
+    <div class="pics">
     <div class="pic1">
             <div class="bgwhite">
 
@@ -144,15 +143,18 @@ over 2,000</p>
       </div>
         <p style="margin-top: 15px;">Autograph Eau De Parfum 100ml <br>For Man</p>
         <h2> <span>Rs 650</span><span style="font-size: 20px; margin-left: 10px; text-decoration:  line-through;"> Rs 1400</span></h2>
-        <button  class="btnAddToCart">Add to Cart</button>
+        <!-- <button  class="btnAddToCart"><a style="text-decoration: none; color:white;" href="cart.html">Add to Cart</a></button> -->
+         <a href="cart.html" class="btnAddToCart">Add to Cart</a>
+
     </div>
      <div class="pic2">
             <div class="bgwhite">
 
-        <img class="collection" src="collection2.jpg" alt="" ></div>
+        <img  class="collection" src="collection2.jpg" alt="" ></div>
          <p style="margin-top: 15px;">Kyros Eau De Perfum 100ml <br>For Man</p>
         <h2>Rs 899<span style="font-size: 20px; margin-left: 10px; text-decoration:  line-through;"> Rs 2000</span></h2>
-        <button  class="btnAddToCart">Add to Cart</button>
+                 <a href="cart.html" class="btnAddToCart">Add to Cart</a>
+
     </div>
      <div class="pic3">
             <div class="bgwhite">
@@ -160,14 +162,14 @@ over 2,000</p>
         <img class="collection" src="collection3.jpg" alt=""></div>
          <p style="margin-top: 15px;">Autograph Eau De Parfum 100ml <br>For Man</p>
         <h2>Rs 999<span style="font-size: 20px; margin-left: 10px; text-decoration:  line-through;"> Rs 2241</span></h2>
-        <button class="btnAddToCart">Add to Cart</button>
-    </div>
+                 <a href="cart.html" class="btnAddToCart">Add to Cart</a>
+      </div>
      <div class="pic4">
       <div class="bgwhite">
         <img class="collection" src="collection4.jpg" alt=""></div>
          <p style="margin-top: 15px;">Royal Eau De Parfum 100ml <br>For Man</p>
         <h2>Rs 650<span style="font-size: 20px; margin-left: 10px; text-decoration:  line-through;"> Rs 1400</span></h2>
-        <button  class="btnAddToCart">Add to Cart</button>
+         <a href="cart.html" class="btnAddToCart">Add to Cart</a>
     </div>
      <div class="pic5">
             <div class="bgwhite">
@@ -175,17 +177,22 @@ over 2,000</p>
         <img class="collection" src="collection5.jpg" alt=""></div>
          <p style="margin-top: 15px;">Royal Eau De Parfum 100ml <br>For Man</p>
         <h2><span> Rs 650<span style="font-size: 20px; margin-left: 10px; text-decoration:  line-through;"> Rs 1400</span></span></h2>
-        <button  class="btnAddToCart">Add to Cart</button>
+         <a href="cart.html" class="btnAddToCart">Add to Cart</a>
     </div>
     </div>
-</div>
-        </section>
-        <section class="section3">
+</div> 
+ 
 
+ 
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<footer>>>>>>>>>>>>>>>>>> -->
+   <section class="section3">
 <section class="footer">
+  <div class="frag">
   <H2 style="margin-top: 90px; font-weight: bolder;color:  #0d2a46;">Fragranzia</H2>
+  </div>
+  <div class="page">
   <div class="all">
-<div class="pages">
   <p style="font-weight: bold;">Page</p>
   <p>Home</p>
   <p>Products</p>
@@ -199,40 +206,36 @@ over 2,000</p>
   <p>Terms and conditions</p>
   <p>FAQs</p>
   <p>Customer Service</p>
-  <p>profile</p>
+ 
 </div>
 <div class="info">
   <p>qwertyu@gmail.com</p>
   <p>+9400653289</p>
   <p style="font-weight: bold;">Social Media</p>
-  
    <div class="sevenicons">
-        <i class="fa-brands fa-facebook fa-2xl"></i>
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+         <i class="fa-brands fa-facebook fa-2xl"></i>
         <i class="fa-brands fa-twitter fa-2xl"></i>
-        <i class="fa-brands fa-pinterest fa-2xl"></i>
         <i class="fa-brands fa-youtube fa-2xl"></i>
-        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-linkedin fa-2xl"></i>
     
 </div>
 </div>
-
 </div>
 </section>
 <div class="underfooter">
-  <div class="ps d-flex ">
-    <div>
-<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Web Accessibility </p></div>
-<div>
-<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Terms Of Use </p></div>
-<div>
-<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Privacy Statement</p></div>
-<div>
+    <div class="web">
+<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Web Accessibility </p>
+<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Terms Of Use </p>
+<p style="border-right: 2px solid black; width: 140px;margin-left: 30px;">Privacy Statement</p>
 <p style="border-right: 2px solid black; width: 140px; margin-left: 30px;">Contact Us</p>
 </div>
-</div>
-<div>
+
+<div class="company">
   <p style="margin-right: 20px;">@2024 fragranzia Company.All reserved.</p>
 </div>
 </div>
+   </section>
+
 </body>
 </html>
