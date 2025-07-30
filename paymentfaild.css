@@ -1,17 +1,20 @@
 
 .navbar{
-    margin-left: 60px;
-    margin-right: 30px;
-    height: 90px;
-    /* margin-top: 10px; */
+   
+    /* height: 90px; */
+    margin-top: 10px;
 
 
 }.navbar-brand{
 font-weight:bolder;
 font-size: 20px;
+ margin-left: 40px;
+    margin-right: 30px;
+
 }
 .navcontents{
   box-shadow: #0d2a46;
+  
 }
 .btn123 a{
     border: solid;
@@ -22,6 +25,7 @@ font-size: 20px;
     width: 45px;
     margin-left: 10px;
     margin-top: -10px;
+    
     /* box-shadow: 2px 5px 6px rgba(0,0,0,0.1); */
 
  box-shadow:2px 2px 2px  rgba(55, 54, 54, 0.1); 
@@ -32,11 +36,11 @@ font-size: 20px;
     margin-top: 13px;
     color: black;
 }
-.navcontents{
+/* .navcontents{
   
-        border: rgb(240, 235, 235);
-    box-shadow:2px 3px 2px  rgba(55, 54, 54, 0.1); 
-    }
+        border: rgb(172, 39, 39);
+    box-shadow:2px 3px 2px 5px rgba(55, 54, 54, 5); 
+    } */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<background>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -334,11 +338,7 @@ font-weight: bold;
     width: 100%;
     height: auto;
   }
-  .order{
-    width: 90%;
-    height: auto;
-    padding: 20px;
-  }
+ 
   /* .vector{ */
     /* margin-left:-30px; */
     /* height: auto; */
@@ -352,4 +352,25 @@ font-weight: bold;
 
 
   } */
+     .order{
+    position: static;
+        /* flex-direction: column; */
+    align-items: center;
+     width: 100%;
+    
+    /* margin-left:-20px; */
+    margin-top:-1500px;
+        height: auto;
+
+  }
+  .ellips{
+    /* height: auto; */
+    /* width: auto; */
+    left: 20px;
+  }.vctr{
+    left: 100px;
+  }
+  .blurbackground{
+ position: static;
+}
 }

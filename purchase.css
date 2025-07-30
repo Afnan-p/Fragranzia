@@ -1,11 +1,12 @@
 .navbar{
-    margin-left: 30px;
-    margin-right: 30px;
+   margin-top: 10px;
     /* height: 100px; */
 
 }.navbar-brand{
 font-weight:bolder;
 font-size: 20px;
+ margin-left: 30px;
+    margin-right: 30px;
 }
 .btn123 a{
     border: solid;

@@ -1,20 +1,21 @@
 
 .navbar{
-    margin-left: 60px;
-    margin-right: 30px;
+    
     /* height: 80px; */
-    /* margin-top: 10px; */
+    margin-top: 10px;
 
 
 }.navbar-brand{
 font-weight:bolder;
 font-size: 20px;
+margin-left: 40px;
+    margin-right: 50px;
 }
-.navcontents{
+/* .navcontents{
 
         border: rgb(240, 235, 235);
     box-shadow:2px 3px 2px  rgba(55, 54, 54, 0.1); 
-    }
+    } */
 .btn123 a{
     border: solid;
     border-color: rgb(248, 232, 232);
@@ -309,10 +310,10 @@ font-weight: bold;
     gap: 10px;
   }
 
-  .navbar {
+  /* .navbar {
     margin-left: 10px;
     margin-right: 10px;
-  }
+  } */
 
   .form-control {
     width: 150px;
@@ -326,13 +327,22 @@ font-weight: bold;
     font-size: 28px;
   }
   .order{
+    position: static;
         /* flex-direction: column; */
     align-items: center;
      width: 100%;
-    margin-left:-20px;
-    margin-top: 20px;
+    
+    /* margin-left:-20px; */
+    margin-top:-1500px;
         height: auto;
 
+  }
+  .ellips{
+    /* height: auto; */
+    /* width: auto; */
+    left: 30px;
+  }.vctr{
+    left: 140px;
   }
 .blurbackground{
  position: static;
