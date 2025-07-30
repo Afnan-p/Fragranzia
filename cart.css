@@ -1,7 +1,7 @@
 .navbar{
     margin-left:0px;
      /* margin-right: 50px;  */
-     height: 100px; 
+     /* height: 100px;  */
 
 }.navbar-brand{
       margin-left: 30px;
@@ -268,7 +268,7 @@ height: 60px;
 @media (max-width: 800px) {
     .checkoutall {
         position: static;
-        margin-top: 20px;
+        margin-top: 150px;
     }
 
     .firstcart-2,
@@ -309,10 +309,11 @@ height: 60px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .navbar {
         margin-left: 10px;
         margin-right: 10px;
+        position: static;
     }
 
     .btn123 button {
@@ -359,7 +360,7 @@ height: 60px;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 550px) {
     h1 {
         font-size: 24px !important;
     }

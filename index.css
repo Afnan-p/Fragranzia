@@ -2,12 +2,14 @@
 .navbar{
     margin-left: 30px;
     margin-right: 30px;
-    height: 100px;
+      justify-content: space-evenly;
+
 
 }.navbar-brand{
 font-weight:bolder;
 font-size: 20px;
 }
+
 .btn123 a{
     border: solid;
     border-color: rgb(248, 232, 232);
@@ -643,9 +645,37 @@ height: 60px;
      display: flex;
     flex-direction: column;
     height: auto;
+    /* width: 100%; */
     /* flex-wrap: wrap; */
 }
 .lstbtn{
     /* margin-left: -70px; */
 }
+.blueline{
+    /* padding: 10px; */
+    font-size: 10px;
+    /* margin-top: 350px; */
+    margin-left: 10px;
+    /* height: 100%; */
+    width: 100%;
+}
+/* .navall{
+    height: auto;
+    width: 100%;
+} */
+ .seeall{
+margin-top:40px;
+ }
+
+
+/* .lastpart .lstbtn{
+  flex-wrap: wrap;
+} */
+       
+.lastpart{
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+}
+
 }

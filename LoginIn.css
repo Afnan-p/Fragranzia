@@ -68,8 +68,8 @@ font-size: 18px;
 }
 .p2{
     font-size: 12px;
-    /* text-align: center; */
-    margin-left: 90px;
+    text-align: center;
+  
 }
 
 .p3{
@@ -144,15 +144,18 @@ font-size: 18px;
     .all{
                 flex-direction: column;
                 align-items: center;
-                gap: 0px;
+                gap: 40px;
+                margin-left: 0px;
 
     }
     .main{
-        /* height: auto; */
+        /* height: 90%; */
         width: 90%;
     }
     .text{
+        margin-top: 150px;
         text-align: center;
+         font-size: 18px;
     }
    
 
@@ -171,5 +174,31 @@ font-size: 18px;
     margin-left: 30px;
         margin-right: auto;
         height: auto;
+    }
+    /* .eye{
+                margin-left: 0px;
+
+    } */
+    .info{
+        height: auto;
+        width:90%;
+
+    }
+    .btn{
+        flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+    .allforms input{
+         /* height: auto; */
+        width:100%;
+
+    }
+    .forgot{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .p4{
+        text-align: center;
     }
     }
